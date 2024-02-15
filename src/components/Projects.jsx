@@ -6,7 +6,7 @@ import reactParallax from "../assets/portfolio/reactParallax.jpg";
 // import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 // import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
-const Portfolio = () => {
+const Projects = () => {
     const portfolios = [
         {
             id:1,
@@ -41,14 +41,13 @@ const Portfolio = () => {
   return (
 
     <div
-      name="projects
-      "
+      name="projects"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Portfolio
+            Projects
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
@@ -79,4 +78,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Projects;
